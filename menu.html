@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Where Vibe Meets Luxury</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">
+                    <div class="logo-icon">
+                        <span class="logo-text">WVML</span>
+                        <i class="fas fa-crown crown-icon"></i>
+                    </div>
+                    <span class="logo-subtitle">Where Vibe Meets Luxury</span>
+                </a>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="menu.html" class="nav-link active">Menu</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1 class="glowing-text">Our Menu</h1>
+        <p>Authentic Flavors, Premium Experience</p>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu-section">
+        <div class="container">
+            <!-- Pepper Soup Section -->
+            <div class="menu-category">
+                <h2 class="category-title neon-glow">🔥 Signature Pepper Soups</h2>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <div class="placeholder-image">
+                                <i class="fas fa-fish"></i>
+                            </div>
+                        </div>
+                        <div class="menu-item-content">
+                            <h3>Fish Pepper Soup</h3>
+                            <p>Fresh tilapia in our signature spicy broth with aromatic herbs</p>
+                            <span class="price">₦3,000</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <div class="placeholder-image">
+                                <i class="fas fa-drumstick-bite"></i>
+                            </div>
+                        </div>
+                        <div class="menu-item-content">
+                            <h3>Chicken Pepper Soup</h3>
+                            <p>Tender chicken pieces simmered in traditional Nigerian spices</p>
+                            <span class="price">₦3,000</span>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <div class="placeholder-image">
+                                <i class="fas fa-utensils"></i>
+                            </div>
+                        </div>
+                        <div class="menu-item-content">
+                            <h3>Goat Meat Pepper Soup</h3>
+                            <p>Premium goat meat in our secret pepper soup recipe</p>
+                            <span class="price">₦3,000</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Promo Sauce Specials -->
+            <div class="menu-category special">
+                <h2 class="category-title neon-glow">⭐ Promo Sauce Specials</h2>
+                <div class="promo-special-card">
+                    <div class="special-badge">LIMITED TIME</div>
+                    <h3>Mystery Promo Sauce Combo</h3>
+                    <p>Our chef's special creation - a fusion of premium ingredients with our signature sauce. Includes complimentary side dish and drink pairing.</p>
+                    <div class="special-details">
+                        <span class="special-price">₦5,500</span>
+                        <span class="original-price">₦7,000</span>
+                    </div>
+                    <button class="btn btn-primary" onclick="orderItem('Mystery Promo Sauce Combo')">Order Now</button>
+                </div>
+            </div>
+
+            <!-- Drinks Section -->
+            <div class="menu-category">
+                <h2 class="category-title neon-glow">🍹 Premium Beverages</h2>
+                <div class="drinks-grid">
+                    <div class="drink-category">
+                        <h3>Signature Cocktails</h3>
+                        <ul>
+                            <li>WVML Special <span>₦4,500</span></li>
+                            <li>Lagos Nights <span>₦3,500</span></li>
+                            <li>Benin City Sunset <span>₦3,000</span></li>
+                        </ul>
+                    </div>
+                    <div class="drink-category">
+                        <h3>Premium Spirits</h3>
+                        <ul>
+                            <li>Hennessy VS <span>₦45,000</span></li>
+                            <li>Martell Blue Swift <span>₦65,000</span></li>
+                            <li>Azul Clase <span>₦120,000</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>WVML Lounge</h3>
+                    <p>Where Vibe Meets Luxury</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> 201 Siloko Road, Benin City</p>
+                    <p><i class="fas fa-phone"></i> 07062228026</p>
+                    <p><i class="fas fa-envelope"></i> eroeliza1234@gmail.com</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Opening Hours</h4>
+                    <p><strong>Monday - Sunday</strong></p>
+                    <p>5:00 PM - 2:00 AM</p>
+                    <p class="highlight">Happy Hour: 5 PM - 7 PM</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Where Vibe Meets Luxury. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
