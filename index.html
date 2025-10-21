@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Where Vibe Meets Luxury - Premium Lounge & Bar</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">
+                    <div class="logo-icon">
+                        <span class="logo-text">WVML</span>
+                        <i class="fas fa-crown crown-icon"></i>
+                    </div>
+                    <span class="logo-subtitle">Where Vibe Meets Luxury</span>
+                </a>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="menu.html" class="nav-link">Menu</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title glowing-text">Where Vibe Meets Luxury</h1>
+            <p class="hero-subtitle">Experience Premium Nightlife in Benin City</p>
+            <div class="hero-buttons">
+                <a href="#booking" class="btn btn-primary">Book Your Spot</a>
+                <a href="menu.html" class="btn btn-secondary">Order Pepper Soup</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Promo Section -->
+    <section class="promo-section">
+        <div class="container">
+            <h2 class="section-title neon-glow">🔥 Today's Promo Sauce Deals</h2>
+            <div class="promo-cards">
+                <div class="promo-card">
+                    <div class="promo-badge">HOT DEAL</div>
+                    <h3>Happy Hour Special</h3>
+                    <p>50% off selected cocktails</p>
+                    <span class="promo-time">5 PM - 7 PM</span>
+                </div>
+                <div class="promo-card featured">
+                    <div class="promo-badge">EXCLUSIVE</div>
+                    <h3>VIP Table Package</h3>
+                    <p>Premium bottle service + complimentary pepper soup</p>
+                    <span class="promo-time">All Night</span>
+                </div>
+                <div class="promo-card">
+                    <div class="promo-badge">LIMITED</div>
+                    <h3>Weekend Vibes</h3>
+                    <p>Free entry before 8 PM</p>
+                    <span class="promo-time">Fri - Sat</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">The Ultimate Experience</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-cocktail feature-icon"></i>
+                    <h3>Premium Cocktails</h3>
+                    <p>Expertly crafted drinks by master mixologists</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-music feature-icon"></i>
+                    <h3>Live DJ Sets</h3>
+                    <p>Top DJs spinning the hottest tracks nightly</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-utensils feature-icon"></i>
+                    <h3>Gourmet Pepper Soup</h3>
+                    <p>Authentic Nigerian flavors that hit different</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-crown feature-icon"></i>
+                    <h3>VIP Service</h3>
+                    <p>Exclusive tables and personalized attention</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking" class="booking-section">
+        <div class="container">
+            <h2 class="section-title">Reserve Your Experience</h2>
+            <div class="booking-form-container">
+                <form class="booking-form" id="bookingForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Phone Number" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="date" required>
+                    </div>
+                    <div class="form-group">
+                        <select required>
+                            <option value="">Select Time</option>
+                            <option>5:00 PM - 7:00 PM</option>
+                            <option>7:00 PM - 9:00 PM</option>
+                            <option>9:00 PM - 11:00 PM</option>
+                            <option>11:00 PM - 1:00 AM</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select required>
+                            <option value="">Number of Guests</option>
+                            <option>2-4 Guests</option>
+                            <option>5-8 Guests</option>
+                            <option>9-12 Guests</option>
+                            <option>12+ Guests (VIP)</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-submit">Book Now</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>WVML Lounge</h3>
+                    <p>Where Vibe Meets Luxury</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> 201 Siloko Road, Benin City</p>
+                    <p><i class="fas fa-phone"></i> 07062228026</p>
+                    <p><i class="fas fa-envelope"></i> eroeliza1234@gmail.com</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Opening Hours</h4>
+                    <p><strong>Monday - Sunday</strong></p>
+                    <p>5:00 PM - 2:00 AM</p>
+                    <p class="highlight">Happy Hour: 5 PM - 7 PM</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Where Vibe Meets Luxury. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
