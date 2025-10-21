@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staff Application - Where Vibe Meets Luxury</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation (No Staff Link in Menu) -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">
+                    <div class="logo-icon">
+                        <span class="logo-text">WVML</span>
+                        <i class="fas fa-crown crown-icon"></i>
+                    </div>
+                    <span class="logo-subtitle">Where Vibe Meets Luxury</span>
+                </a>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="menu.html" class="nav-link">Menu</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1 class="glowing-text">Join Our Team</h1>
+        <p>Be Part of Something Extraordinary</p>
+    </section>
+
+    <!-- Application Section -->
+    <section class="application-section">
+        <div class="container">
+            <div class="application-intro">
+                <h2 class="section-title neon-glow">Work at WVML</h2>
+                <p class="lead-text">
+                    We're always looking for talented individuals who share our passion for excellence 
+                    and hospitality. Join our team and be part of Benin City's premier luxury lounge experience.
+                </p>
+            </div>
+
+            <div class="benefits-grid">
+                <div class="benefit">
+                    <i class="fas fa-money-bill-wave"></i>
+                    <h4>Competitive Pay</h4>
+                </div>
+                <div class="benefit">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h4>Training Programs</h4>
+                </div>
+                <div class="benefit">
+                    <i class="fas fa-users"></i>
+                    <h4>Great Team</h4>
+                </div>
+                <div class="benefit">
+                    <i class="fas fa-chart-line"></i>
+                    <h4>Growth Opportunities</h4>
+                </div>
+            </div>
+
+            <div class="application-form-container">
+                <h3>Submit Your Application</h3>
+                <form class="application-form" id="staffApplicationForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="fullName">Full Name *</label>
+                            <input type="text" id="fullName" name="fullName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="position">Position Applying For *</label>
+                        <select id="position" name="position" required>
+                            <option value="">Select Position</option>
+                            <option value="waiter-waitress">Waiter/Waitress</option>
+                            <option value="chef">Chef</option>
+                            <option value="bartender">Bartender</option>
+                            <option value="security">Security</option>
+                            <option value="cleaner">Cleaner</option>
+                            <option value="manager">Manager</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="experience">Years of Experience</label>
+                        <select id="experience" name="experience">
+                            <option value="">Select Experience</option>
+                            <option value="0-1">0-1 Years</option>
+                            <option value="1-3">1-3 Years</option>
+                            <option value="3-5">3-5 Years</option>
+                            <option value="5+">5+ Years</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="cv">Upload CV (PDF/DOC) *</label>
+                        <div class="file-upload">
+                            <input type="file" id="cv" name="cv" accept=".pdf,.doc,.docx" required>
+                            <label for="cv" class="file-label">
+                                <i class="fas fa-cloud-upload-alt"></i>
+                                <span>Choose File</span>
+                            </label>
+                            <span class="file-name">No file chosen</span>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Why do you want to work at WVML?</label>
+                        <textarea id="message" name="message" rows="4"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-submit">
+                        <i class="fas fa-paper-plane"></i> Submit Application
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>WVML Lounge</h3>
+                    <p>Where Vibe Meets Luxury</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> 201 Siloko Road, Benin City</p>
+                    <p><i class="fas fa-phone"></i> 07062228026</p>
+                    <p><i class="fas fa-envelope"></i> eroeliza1234@gmail.com</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Opening Hours</h4>
+                    <p><strong>Monday - Sunday</strong></p>
+                    <p>5:00 PM - 2:00 AM</p>
+                    <p class="highlight">Happy Hour: 5 PM - 7 PM</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Where Vibe Meets Luxury. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
